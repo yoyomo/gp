@@ -5,9 +5,8 @@ if [ "$#" -lt 1 ]; then
   exit 1;
 fi
 
-message=$1
+message=$@
 
-echo $message
 git add .
 git commit -m "$message"
 git push origin head
