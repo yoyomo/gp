@@ -2,9 +2,9 @@
 git add .; git commit -m "message"; git push origin head => one liner
 
 ## How to install
-`brew update`
-`brew tap yoyomo/tap`
-`brew install yoyomo/tap/gp`
+`brew update`\
+`brew tap yoyomo/tap`\
+`brew install yoyomo/tap/gp`\
 
 ## How to use
 `gp MESSAGE`
