@@ -7,7 +7,7 @@ fi
 
 message=$@
 
-git status
+git commit --all --short
 git add .
 git commit -m "$message"
 git push origin head
