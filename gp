@@ -1,5 +1,5 @@
 #!/bin/bash
- 
+
 if [ "$#" -lt 1 ]; then
   echo "Usage: gp MESSAGE"
   exit 1;
